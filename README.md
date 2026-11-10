@@ -11,6 +11,7 @@ Graphics SemVer is `0.1.0` (`VERSION`, `package.json`). Pins protocol wire `0.1.
 ## Scope
 
 - Shipped templates: scorebug, clocks, lineups, lower_thirds, substitutions, summaries, sponsor_panels, social_cards
+- Geometry lineups: `src/lineup.mjs` renders sports package field + formation with photos, focal crop, captain/GK markers, starters vs substitutes, and reduced-motion variants (AC-7.1–7.5)
 - Layout editor model: `src/layout-editor.mjs` + exact-output compose `src/layout-compose.mjs` (AC-3.2–3.10)
 - Safe-area guides: SMPTE ST 2046-1:2009 (action 93%, title/graphics 90%)
 - Resolutions: 720p, 1080p, 4K for aspects 16:9, 9:16, 1:1 (ITU-R BT.2020 UHD 3840x2160 for 16:9 4K)
