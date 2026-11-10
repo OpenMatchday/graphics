@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "clips": [
+    {
+      "id": "lineup_in",
+      "kind": "entry",
+      "duration_ms": 600,
+      "reduced_motion": {
+        "duration_ms": 0,
+        "mode": "cut"
+      }
+    },
+    {
+      "id": "lineup_out",
+      "kind": "exit",
+      "duration_ms": 400,
+      "reduced_motion": {
+        "duration_ms": 0,
+        "mode": "cut"
+      }
+    },
+    {
+      "id": "score_bump",
+      "kind": "score",
+      "duration_ms": 500,
+      "reduced_motion": {
+        "duration_ms": 0,
+        "mode": "cut"
+      }
+    },
+    {
+      "id": "period_end",
+      "kind": "period",
+      "duration_ms": 700,
+      "reduced_motion": {
+        "duration_ms": 0,
+        "mode": "fade"
+      }
+    }
+  ]
+}

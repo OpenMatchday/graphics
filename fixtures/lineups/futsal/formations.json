@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1.0",
+  "formations": [
+    {
+      "id": "standard_4_1",
+      "display_name": "Standard 1-2-1",
+      "slots": [
+        { "position_id": "goalkeeper", "x": 0.08, "y": 0.5 },
+        { "position_id": "defender", "x": 0.28, "y": 0.5 },
+        { "position_id": "left_winger", "x": 0.48, "y": 0.22 },
+        { "position_id": "right_winger", "x": 0.48, "y": 0.78 },
+        { "position_id": "pivot", "x": 0.72, "y": 0.5 }
+      ]
+    },
+    {
+      "id": "diamond",
+      "display_name": "Diamond",
+      "slots": [
+        { "position_id": "goalkeeper", "x": 0.08, "y": 0.5 },
+        { "position_id": "defender", "x": 0.32, "y": 0.5 },
+        { "position_id": "left_winger", "x": 0.52, "y": 0.28 },
+        { "position_id": "right_winger", "x": 0.52, "y": 0.72 },
+        { "position_id": "pivot", "x": 0.74, "y": 0.5 }
+      ]
+    }
+  ]
+}

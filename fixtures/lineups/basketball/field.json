@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.1.0",
+  "surface": "court",
+  "units": "m",
+  "width": 15,
+  "length": 28,
+  "markings": [
+    {
+      "id": "boundary",
+      "kind": "boundary",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [0, 0],
+          [28, 0],
+          [28, 15],
+          [0, 15]
+        ]
+      }
+    },
+    {
+      "id": "center_line",
+      "kind": "center",
+      "geometry": {
+        "type": "polyline",
+        "points": [
+          [14, 0],
+          [14, 15]
+        ]
+      }
+    },
+    {
+      "id": "center_circle",
+      "kind": "center",
+      "geometry": {
+        "type": "circle",
+        "points": [[14, 7.5]],
+        "radius": 1.8
+      }
+    },
+    {
+      "id": "home_basket",
+      "kind": "goal",
+      "geometry": {
+        "type": "circle",
+        "points": [[1.575, 7.5]],
+        "radius": 0.225
+      }
+    },
+    {
+      "id": "away_basket",
+      "kind": "goal",
+      "geometry": {
+        "type": "circle",
+        "points": [[26.425, 7.5]],
+        "radius": 0.225
+      }
+    },
+    {
+      "id": "home_three_point_arc",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[1.575, 7.5]],
+        "radius": 6.75
+      }
+    },
+    {
+      "id": "away_three_point_arc",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[26.425, 7.5]],
+        "radius": 6.75
+      }
+    },
+    {
+      "id": "home_restricted_area",
+      "kind": "key",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [0, 5.7],
+          [5.8, 5.7],
+          [5.8, 9.3],
+          [0, 9.3]
+        ]
+      }
+    },
+    {
+      "id": "away_restricted_area",
+      "kind": "key",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [22.2, 5.7],
+          [28, 5.7],
+          [28, 9.3],
+          [22.2, 9.3]
+        ]
+      }
+    }
+  ]
+}

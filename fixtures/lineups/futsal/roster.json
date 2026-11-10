@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "positions": [
+    {
+      "id": "goalkeeper",
+      "display_name": "Goalkeeper",
+      "markers": ["goalkeeper"]
+    },
+    {
+      "id": "defender",
+      "display_name": "Defender (Fixo)",
+      "markers": ["none"]
+    },
+    {
+      "id": "left_winger",
+      "display_name": "Left Winger (Ala)",
+      "markers": ["none"]
+    },
+    {
+      "id": "right_winger",
+      "display_name": "Right Winger (Ala)",
+      "markers": ["none"]
+    },
+    {
+      "id": "pivot",
+      "display_name": "Pivot",
+      "markers": ["none"]
+    }
+  ],
+  "limits": {
+    "on_field_min": 3,
+    "on_field_max": 5,
+    "bench_max": 9
+  }
+}

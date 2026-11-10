@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "surface": "pitch",
+  "units": "m",
+  "width": 20,
+  "length": 38,
+  "markings": [
+    {
+      "id": "boundary",
+      "kind": "boundary",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [0, 0],
+          [38, 0],
+          [38, 20],
+          [0, 20]
+        ]
+      }
+    },
+    {
+      "id": "center_line",
+      "kind": "center",
+      "geometry": {
+        "type": "polyline",
+        "points": [
+          [19, 0],
+          [19, 20]
+        ]
+      }
+    },
+    {
+      "id": "center_circle",
+      "kind": "center",
+      "geometry": {
+        "type": "circle",
+        "points": [[19, 10]],
+        "radius": 3
+      }
+    },
+    {
+      "id": "home_goal",
+      "kind": "goal",
+      "geometry": {
+        "type": "polyline",
+        "points": [
+          [0, 8.5],
+          [0, 11.5]
+        ]
+      }
+    },
+    {
+      "id": "away_goal",
+      "kind": "goal",
+      "geometry": {
+        "type": "polyline",
+        "points": [
+          [38, 8.5],
+          [38, 11.5]
+        ]
+      }
+    },
+    {
+      "id": "home_penalty_mark",
+      "kind": "other",
+      "geometry": {
+        "type": "circle",
+        "points": [[6, 10]],
+        "radius": 0.06
+      }
+    },
+    {
+      "id": "away_penalty_mark",
+      "kind": "other",
+      "geometry": {
+        "type": "circle",
+        "points": [[32, 10]],
+        "radius": 0.06
+      }
+    },
+    {
+      "id": "home_10m_mark",
+      "kind": "other",
+      "geometry": {
+        "type": "circle",
+        "points": [[10, 10]],
+        "radius": 0.06
+      }
+    },
+    {
+      "id": "away_10m_mark",
+      "kind": "other",
+      "geometry": {
+        "type": "circle",
+        "points": [[28, 10]],
+        "radius": 0.06
+      }
+    },
+    {
+      "id": "home_penalty_area",
+      "kind": "key",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [0, 2.5],
+          [6, 8.42],
+          [6, 11.58],
+          [0, 17.5]
+        ]
+      }
+    },
+    {
+      "id": "away_penalty_area",
+      "kind": "key",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [38, 2.5],
+          [32, 8.42],
+          [32, 11.58],
+          [38, 17.5]
+        ]
+      }
+    },
+    {
+      "id": "home_corner_arc_near",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[0, 0]],
+        "radius": 0.25
+      }
+    },
+    {
+      "id": "home_corner_arc_far",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[0, 20]],
+        "radius": 0.25
+      }
+    },
+    {
+      "id": "away_corner_arc_near",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[38, 0]],
+        "radius": 0.25
+      }
+    },
+    {
+      "id": "away_corner_arc_far",
+      "kind": "arc",
+      "geometry": {
+        "type": "circle",
+        "points": [[38, 20]],
+        "radius": 0.25
+      }
+    }
+  ]
+}

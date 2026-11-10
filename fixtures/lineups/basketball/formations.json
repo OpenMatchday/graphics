@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1.0",
+  "formations": [
+    {
+      "id": "starting_five",
+      "display_name": "Starting Five",
+      "slots": [
+        { "position_id": "point_guard", "x": 0.35, "y": 0.5 },
+        { "position_id": "shooting_guard", "x": 0.45, "y": 0.22 },
+        { "position_id": "small_forward", "x": 0.45, "y": 0.78 },
+        { "position_id": "power_forward", "x": 0.62, "y": 0.32 },
+        { "position_id": "center", "x": 0.72, "y": 0.5 }
+      ]
+    },
+    {
+      "id": "spread",
+      "display_name": "Spread",
+      "slots": [
+        { "position_id": "point_guard", "x": 0.28, "y": 0.5 },
+        { "position_id": "shooting_guard", "x": 0.42, "y": 0.12 },
+        { "position_id": "small_forward", "x": 0.42, "y": 0.88 },
+        { "position_id": "power_forward", "x": 0.68, "y": 0.28 },
+        { "position_id": "center", "x": 0.68, "y": 0.72 }
+      ]
+    }
+  ]
+}

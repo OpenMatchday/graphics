@@ -12,24 +12,24 @@ import {
 } from "../src/lineup.mjs"
 
 const here = dirname(fileURLToPath(import.meta.url))
-const workspace = join(here, "..", "..")
+const fixtures = join(here, "..", "fixtures", "lineups")
 const basketballField = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "basketball", "field.json"), "utf8")
+  readFileSync(join(fixtures, "basketball", "field.json"), "utf8")
 )
 const basketballFormations = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "basketball", "formations.json"), "utf8")
+  readFileSync(join(fixtures, "basketball", "formations.json"), "utf8")
 )
 const basketballAnimations = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "basketball", "animations.json"), "utf8")
+  readFileSync(join(fixtures, "basketball", "animations.json"), "utf8")
 )
 const futsalField = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "futsal", "field.json"), "utf8")
+  readFileSync(join(fixtures, "futsal", "field.json"), "utf8")
 )
 const futsalFormations = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "futsal", "formations.json"), "utf8")
+  readFileSync(join(fixtures, "futsal", "formations.json"), "utf8")
 )
 const futsalRoster = JSON.parse(
-  readFileSync(join(workspace, "sports", "packages", "futsal", "roster.json"), "utf8")
+  readFileSync(join(fixtures, "futsal", "roster.json"), "utf8")
 )
 
 const basketballFormation = basketballFormations.formations.find((f) => f.id === "starting_five")
