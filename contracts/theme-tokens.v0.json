@@ -1,0 +1,48 @@
+{
+  "contract_id": "open-matchday.theme-tokens",
+  "contract_version": "0.1.0",
+  "graphics_version": "0.1.0",
+  "description": "Token keys graphics templates resolve at render time. Mirrored in themes/contracts/theme-tokens.v0.json. Themes must supply these keys; themes must not import graphics code.",
+  "required_tokens": [
+    {
+      "key": "color.panel",
+      "role": "color",
+      "description": "Primary panel fill behind text"
+    },
+    {
+      "key": "color.accent",
+      "role": "color",
+      "description": "Accent strip or secondary panel fill"
+    },
+    {
+      "key": "color.text",
+      "role": "color",
+      "description": "Primary text on panels"
+    },
+    {
+      "key": "font.family",
+      "role": "font",
+      "description": "CSS font-family stack or generic family"
+    }
+  ],
+  "required_contrast_pairs": [
+    {
+      "fg": "color.text",
+      "bg": "color.panel",
+      "min_ratio": 4.5,
+      "wcag": "1.4.3 AA normal text"
+    },
+    {
+      "fg": "color.text",
+      "bg": "color.accent",
+      "min_ratio": 4.5,
+      "wcag": "1.4.3 AA normal text"
+    }
+  ],
+  "aspects": ["16:9", "9:16", "1:1"],
+  "sources": {
+    "wcag_22_contrast": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+    "wcag_relative_luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance",
+    "wcag_contrast_ratio": "https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio"
+  }
+}
