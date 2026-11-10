@@ -6,7 +6,7 @@
   "description": "Open Matchday deterministic graphics renderer, scene and template schemas",
   "scripts": {
     "check": "node scripts/check-schemas.mjs",
-    "test": "node --test test/schema.test.mjs test/render.test.mjs test/golden.test.mjs test/theme-tokens.test.mjs",
+    "test": "node --test test/schema.test.mjs test/render.test.mjs test/golden.test.mjs test/theme-tokens.test.mjs test/layout-editor.test.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "goldens:update": "node scripts/update-goldens.mjs"
   },
