@@ -1,0 +1,56 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-social-cards",
+  "kind": "social_cards",
+  "title": "Social card",
+  "slots": [
+    { "slot_id": "title", "label": "Title", "max_length": 80 },
+    { "slot_id": "subtitle", "label": "Subtitle", "max_length": 120 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "accent",
+        "role": "accent",
+        "x": 0,
+        "y": 0.92,
+        "w": 1,
+        "h": 0.08,
+        "fill_token": "color.accent"
+      },
+      {
+        "region_id": "title",
+        "role": "text",
+        "x": 0.08,
+        "y": 0.28,
+        "w": 0.84,
+        "h": 0.22,
+        "slot_id": "title",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      },
+      {
+        "region_id": "subtitle",
+        "role": "text",
+        "x": 0.08,
+        "y": 0.55,
+        "w": 0.84,
+        "h": 0.2,
+        "slot_id": "subtitle",
+        "text_token": "color.text",
+        "font_size_ratio": 0.45
+      }
+    ]
+  },
+  "supports_motion": false
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" data-aspect="9:16" data-resolution="1080p" data-scene="scene-social_cards" data-graphics-version="0.1.0">
+<rect data-role="canvas" x="0" y="0" width="1080" height="1920" fill="#00000000"/>
+<g data-motion="reduced"><g data-instance="inst-1" data-template="tmpl-social-cards" data-kind="social_cards"><rect data-region="accent" x="54" y="537.6" width="972" height="38.4" fill="#C4C4C4"/><rect data-region="panel" x="54" y="96" width="972" height="480" fill="#1A1A1A"/><text data-region="subtitle" data-slot="subtitle" x="164.4192" y="429.12" fill="#F5F5F5" font-family="sans-serif" font-size="43.2">Home FC vs Away United</text><text data-region="title" data-slot="title" x="164.4192" y="306.432" fill="#F5F5F5" font-family="sans-serif" font-size="58.08">Matchday</text></g></g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version_pin": "0.1.0",
+  "dialect": "https://json-schema.org/draft/2020-12/schema",
+  "schemas": [
+    "common.json",
+    "template.json",
+    "scene.json",
+    "render-input.json"
+  ],
+  "sources": {
+    "json_schema": "https://json-schema.org/draft/2020-12/schema",
+    "semver": "https://semver.org/",
+    "svg": "https://www.w3.org/TR/SVG2/",
+    "uhd": "https://www.itu.int/rec/R-REC-BT.2020/",
+    "ac": "PROJECT_SPEC AC-8.1"
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" data-aspect="9:16" data-resolution="1080p" data-scene="scene-sponsor_panels" data-graphics-version="0.1.0">
+<rect data-role="canvas" x="0" y="0" width="1080" height="1920" fill="#00000000"/>
+<g data-motion="reduced"><g data-instance="inst-1" data-template="tmpl-sponsor-panels" data-kind="sponsor_panels"><rect data-region="panel" x="54" y="96" width="972" height="480" fill="#1A1A1A"/><text data-region="sponsor_name" data-slot="sponsor_name" x="146.5344" y="312.96" fill="#F5F5F5" font-family="sans-serif" font-size="92.4">Example Sponsor</text><text data-region="tagline" data-slot="tagline" x="146.5344" y="471.168" fill="#F5F5F5" font-family="sans-serif" font-size="67.2">Fictional partner</text></g></g>
+</svg>

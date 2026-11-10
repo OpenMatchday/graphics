@@ -1,0 +1,47 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-substitutions",
+  "kind": "substitutions",
+  "title": "Substitution",
+  "slots": [
+    { "slot_id": "player_out", "label": "Player out", "max_length": 48 },
+    { "slot_id": "player_in", "label": "Player in", "max_length": 48 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "player_out",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.12,
+        "w": 0.88,
+        "h": 0.34,
+        "slot_id": "player_out",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      },
+      {
+        "region_id": "player_in",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.52,
+        "w": 0.88,
+        "h": 0.34,
+        "slot_id": "player_in",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      }
+    ]
+  },
+  "supports_motion": true
+}

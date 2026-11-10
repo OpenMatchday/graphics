@@ -1,0 +1,56 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-lineups",
+  "kind": "lineups",
+  "title": "Lineups",
+  "slots": [
+    { "slot_id": "team_name", "label": "Team name", "max_length": 48 },
+    { "slot_id": "lineup_text", "label": "Lineup lines", "max_length": 512 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "accent",
+        "role": "accent",
+        "x": 0,
+        "y": 0,
+        "w": 0.02,
+        "h": 1,
+        "fill_token": "color.accent"
+      },
+      {
+        "region_id": "team_name",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.04,
+        "w": 0.88,
+        "h": 0.14,
+        "slot_id": "team_name",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      },
+      {
+        "region_id": "lineup_text",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.22,
+        "w": 0.88,
+        "h": 0.72,
+        "slot_id": "lineup_text",
+        "text_token": "color.text",
+        "font_size_ratio": 0.12
+      }
+    ]
+  },
+  "supports_motion": false
+}

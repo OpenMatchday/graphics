@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" data-aspect="16:9" data-resolution="4K" data-scene="scene-substitutions" data-graphics-version="0.1.0">
+<rect data-role="canvas" x="0" y="0" width="3840" height="2160" fill="#00000000"/>
+<g data-motion="reduced"><g data-instance="inst-1" data-template="tmpl-substitutions" data-kind="substitutions"><rect data-region="panel" x="192" y="108" width="3456" height="540" fill="#1A1A1A"/><text data-region="player_in" data-slot="player_in" x="521.0112" y="520.992" fill="#F5F5F5" font-family="sans-serif" font-size="100.98">IN 12 Dee Example</text><text data-region="player_out" data-slot="player_out" x="521.0112" y="304.992" fill="#F5F5F5" font-family="sans-serif" font-size="100.98">OUT 7 Cy Example</text></g></g>
+</svg>

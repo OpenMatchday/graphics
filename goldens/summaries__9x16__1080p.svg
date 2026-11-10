@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" data-aspect="9:16" data-resolution="1080p" data-scene="scene-summaries" data-graphics-version="0.1.0">
+<rect data-role="canvas" x="0" y="0" width="1080" height="1920" fill="#00000000"/>
+<g data-motion="reduced"><g data-instance="inst-1" data-template="tmpl-summaries" data-kind="summaries"><text data-region="body" data-slot="body" x="146.5344" y="455.424" fill="#F5F5F5" font-family="sans-serif" font-size="46.656">Fictional summary for golden tests only.</text><text data-region="headline" data-slot="headline" x="146.5344" y="210.432" fill="#F5F5F5" font-family="sans-serif" font-size="58.08">Home FC lead</text><rect data-region="panel" x="54" y="96" width="972" height="480" fill="#1A1A1A"/></g></g>
+</svg>

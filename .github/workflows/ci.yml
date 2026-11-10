@@ -9,12 +9,21 @@ permissions:
   contents: read
 
 jobs:
-  bootstrap:
+  graphics:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Verify bootstrap files
-        run: |
-          test -f README.md
-          test -f LICENSE
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install
+        run: npm ci
+      - name: Schema check
+        run: npm run check
+      - name: Tests
+        run: npm test
+      - name: Typecheck
+        run: npm run typecheck

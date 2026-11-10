@@ -1,0 +1,47 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-sponsor-panels",
+  "kind": "sponsor_panels",
+  "title": "Sponsor panel",
+  "slots": [
+    { "slot_id": "sponsor_name", "label": "Sponsor name", "max_length": 64 },
+    { "slot_id": "tagline", "label": "Tagline", "max_length": 80 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "sponsor_name",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.2,
+        "w": 0.88,
+        "h": 0.35,
+        "slot_id": "sponsor_name",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      },
+      {
+        "region_id": "tagline",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.58,
+        "w": 0.88,
+        "h": 0.28,
+        "slot_id": "tagline",
+        "text_token": "color.text",
+        "font_size_ratio": 0.5
+      }
+    ]
+  },
+  "supports_motion": false
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene.json",
+  "title": "Open Matchday graphics scene document v0",
+  "description": "Scene document aligned with protocol scene payload (protocol 0.1.0). Validated locally for renderer inputs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scene_id",
+    "name",
+    "aspect",
+    "instances"
+  ],
+  "properties": {
+    "scene_id": {
+      "$ref": "common.json#/$defs/Id"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "aspect": {
+      "$ref": "common.json#/$defs/AspectRatio"
+    },
+    "instances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "instance_id",
+          "template_id",
+          "template_kind",
+          "anchor",
+          "x",
+          "y",
+          "w",
+          "h",
+          "z"
+        ],
+        "properties": {
+          "instance_id": {
+            "$ref": "common.json#/$defs/Id"
+          },
+          "template_id": {
+            "$ref": "common.json#/$defs/Id"
+          },
+          "template_kind": {
+            "$ref": "common.json#/$defs/TemplateKind"
+          },
+          "anchor": {
+            "$ref": "common.json#/$defs/Anchor"
+          },
+          "x": {
+            "$ref": "common.json#/$defs/NormalizedNumber"
+          },
+          "y": {
+            "$ref": "common.json#/$defs/NormalizedNumber"
+          },
+          "w": {
+            "$ref": "common.json#/$defs/NormalizedNumber"
+          },
+          "h": {
+            "$ref": "common.json#/$defs/NormalizedNumber"
+          },
+          "z": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "bindings": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "maxLength": 512
+            }
+          }
+        }
+      }
+    }
+  }
+}

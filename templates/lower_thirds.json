@@ -1,0 +1,56 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-lower-thirds",
+  "kind": "lower_thirds",
+  "title": "Lower third",
+  "slots": [
+    { "slot_id": "primary", "label": "Primary line", "max_length": 64 },
+    { "slot_id": "secondary", "label": "Secondary line", "max_length": 64 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "accent",
+        "role": "accent",
+        "x": 0,
+        "y": 0,
+        "w": 0.015,
+        "h": 1,
+        "fill_token": "color.accent"
+      },
+      {
+        "region_id": "primary",
+        "role": "text",
+        "x": 0.05,
+        "y": 0.12,
+        "w": 0.9,
+        "h": 0.4,
+        "slot_id": "primary",
+        "text_token": "color.text",
+        "font_size_ratio": 0.65
+      },
+      {
+        "region_id": "secondary",
+        "role": "text",
+        "x": 0.05,
+        "y": 0.55,
+        "w": 0.9,
+        "h": 0.32,
+        "slot_id": "secondary",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      }
+    ]
+  },
+  "supports_motion": true
+}

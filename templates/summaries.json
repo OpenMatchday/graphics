@@ -1,0 +1,47 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-summaries",
+  "kind": "summaries",
+  "title": "Summary",
+  "slots": [
+    { "slot_id": "headline", "label": "Headline", "max_length": 80 },
+    { "slot_id": "body", "label": "Body", "max_length": 240 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "headline",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.08,
+        "w": 0.88,
+        "h": 0.22,
+        "slot_id": "headline",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      },
+      {
+        "region_id": "body",
+        "role": "text",
+        "x": 0.06,
+        "y": 0.36,
+        "w": 0.88,
+        "h": 0.54,
+        "slot_id": "body",
+        "text_token": "color.text",
+        "font_size_ratio": 0.18
+      }
+    ]
+  },
+  "supports_motion": false
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene-scorebug",
+  "name": "scorebug-only",
+  "aspect": "16:9",
+  "instances": [
+    {
+      "instance_id": "inst-1",
+      "template_id": "tmpl-scorebug",
+      "template_kind": "scorebug",
+      "anchor": "top_left",
+      "x": 0.02,
+      "y": 0.02,
+      "w": 0.4,
+      "h": 0.12,
+      "z": 1,
+      "bindings": {
+        "home_name": "Home FC",
+        "away_name": "Away United",
+        "home_score": "1",
+        "away_score": "0"
+      }
+    }
+  ]
+}

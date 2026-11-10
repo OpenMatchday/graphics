@@ -1,0 +1,36 @@
+{
+  "scorebug": {
+    "home_name": "Home FC",
+    "away_name": "Away United",
+    "home_score": "1",
+    "away_score": "0"
+  },
+  "clocks": {
+    "game_clock": "12:34",
+    "period": "Q2"
+  },
+  "lineups": {
+    "team_name": "Home FC",
+    "lineup_text": "1 Ada / 2 Beau / 3 Cy"
+  },
+  "lower_thirds": {
+    "primary": "Ada Example",
+    "secondary": "Captain"
+  },
+  "substitutions": {
+    "player_out": "OUT 7 Cy Example",
+    "player_in": "IN 12 Dee Example"
+  },
+  "summaries": {
+    "headline": "Home FC lead",
+    "body": "Fictional summary for golden tests only."
+  },
+  "sponsor_panels": {
+    "sponsor_name": "Example Sponsor",
+    "tagline": "Fictional partner"
+  },
+  "social_cards": {
+    "title": "Matchday",
+    "subtitle": "Home FC vs Away United"
+  }
+}

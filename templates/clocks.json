@@ -1,0 +1,47 @@
+{
+  "graphics_version": "0.1.0",
+  "protocol_version": "0.1.0",
+  "template_id": "tmpl-clocks",
+  "kind": "clocks",
+  "title": "Clocks",
+  "slots": [
+    { "slot_id": "game_clock", "label": "Game clock", "max_length": 16 },
+    { "slot_id": "period", "label": "Period label", "max_length": 16 }
+  ],
+  "layout": {
+    "regions": [
+      {
+        "region_id": "panel",
+        "role": "panel",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fill_token": "color.panel"
+      },
+      {
+        "region_id": "game_clock",
+        "role": "text",
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.55,
+        "slot_id": "game_clock",
+        "text_token": "color.text",
+        "font_size_ratio": 0.7
+      },
+      {
+        "region_id": "period",
+        "role": "text",
+        "x": 0.08,
+        "y": 0.65,
+        "w": 0.84,
+        "h": 0.28,
+        "slot_id": "period",
+        "text_token": "color.text",
+        "font_size_ratio": 0.55
+      }
+    ]
+  },
+  "supports_motion": false
+}

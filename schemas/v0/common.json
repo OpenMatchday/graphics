@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.json",
+  "title": "Open Matchday graphics common types v0",
+  "description": "Shared primitives for template, scene, and render-input schemas. No theme package values.",
+  "$defs": {
+    "GraphicsVersion": {
+      "type": "string",
+      "const": "0.1.0",
+      "description": "SemVer for graphics schemas and renderer (REPOS.md)."
+    },
+    "ProtocolVersionPin": {
+      "type": "string",
+      "const": "0.1.0",
+      "description": "Pinned Open Matchday protocol wire version for layout/scene shapes."
+    },
+    "NonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "Id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "AspectRatio": {
+      "type": "string",
+      "enum": ["16:9", "9:16", "1:1"]
+    },
+    "ResolutionLabel": {
+      "type": "string",
+      "enum": ["720p", "1080p", "4K"]
+    },
+    "NormalizedNumber": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Anchor": {
+      "type": "string",
+      "enum": [
+        "top_left",
+        "top_center",
+        "top_right",
+        "center_left",
+        "center",
+        "center_right",
+        "bottom_left",
+        "bottom_center",
+        "bottom_right"
+      ]
+    },
+    "TemplateKind": {
+      "type": "string",
+      "enum": [
+        "scorebug",
+        "clocks",
+        "lineups",
+        "lower_thirds",
+        "substitutions",
+        "summaries",
+        "sponsor_panels",
+        "social_cards"
+      ],
+      "description": "AC-8.1 graphic types"
+    },
+    "SlotId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "TokenRef": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z][a-z0-9_.]*$",
+      "description": "Runtime token slot name resolved by the app/theme layer; not a theme value."
+    }
+  }
+}
