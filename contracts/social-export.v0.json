@@ -1,0 +1,36 @@
+{
+  "contract_id": "open-matchday.social-export",
+  "contract_version": "0.1.0",
+  "graphics_version": "0.1.0",
+  "description": "Export contract for social drafts that render through the graphics social_cards kind. Mirrored in social/contracts/social-export.v0.json. Social must not import graphics code; pin this contract version.",
+  "graphics_kind": "social_cards",
+  "supported_aspects": ["16:9", "9:16", "1:1"],
+  "social_template_kinds": [
+    "announcement",
+    "lineup",
+    "score",
+    "result",
+    "clip"
+  ],
+  "slot_map": {
+    "title": "Primary headline mapped to social_cards title slot",
+    "subtitle": "Supporting line mapped to social_cards subtitle slot"
+  },
+  "banned_fields": [
+    "likes",
+    "views",
+    "shares",
+    "comments",
+    "followers",
+    "impressions",
+    "reach",
+    "engagement",
+    "engagement_rate",
+    "fake_metrics"
+  ],
+  "notes": [
+    "AC-11.3 templates live in social/templates; graphics only supplies social_cards render surface",
+    "AC-11.4 export is local JSON + caption text; no account",
+    "AC-11.7 never include engagement metrics in drafts or export bundles"
+  ]
+}

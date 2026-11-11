@@ -17,6 +17,7 @@ Graphics SemVer is `0.1.0` (`VERSION`, `package.json`). Pins protocol wire `0.1.
 - Resolutions: 720p, 1080p, 4K for aspects 16:9, 9:16, 1:1 (ITU-R BT.2020 UHD 3840x2160 for 16:9 4K)
 - Themes supply token values at render time; this repo does not ship theme packages
 - Token contract: [`contracts/theme-tokens.v0.json`](contracts/theme-tokens.v0.json) (mirrored in `themes`; themes must not import this package)
+- Social export contract: [`contracts/social-export.v0.json`](contracts/social-export.v0.json) (mirrored in `social`; social drafts map to `social_cards`)
 - Output: deterministic SVG ([SVG 2](https://www.w3.org/TR/SVG2/))
 
 
